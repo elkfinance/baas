@@ -10,7 +10,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
 import "../interfaces/IBifrost.sol";
 
-contract BEXBridgeExample is Ownable {
+contract BridgeHeadExample is Ownable {
     using SafeMath for uint256;
     using SafeERC20 for IERC20;
 
