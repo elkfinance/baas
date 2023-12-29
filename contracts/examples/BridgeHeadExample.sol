@@ -1,4 +1,6 @@
 // SPDX-License-Identifier: BUSL-1.1
+//This contract provides an easier way to send simple reservoir type cross-chain bridging transactions to the bifrost contract.
+//This contract could instead be replaced with a UI, as it simply fills the data field of xTransfer in the proper format for a simple reservoir type bridge.
 pragma solidity >=0.8.0;
 
 import "@openzeppelin/contracts/access/AccessControlEnumerable.sol";
